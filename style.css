@@ -1,0 +1,459 @@
+@font-face {
+	font-family: Raleway;
+	src: url(Raleway-Regular.ttf);
+}
+
+@font-face {
+	font-family: Open Sans;
+	src: url(2211.ttf);
+}
+
+@font-face {
+	font-family: Bringin;
+	src: url(9108.otf);	
+}
+
+html {
+	min-height: 100%;
+	border: 0;
+}
+
+body {
+	min-height: 100%;
+	margin: 0;
+	font: 10pt;
+}
+
+header.outside {
+	background-image: url(background.jpg);
+	background-size: auto 698px;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 698px;
+}
+
+header.inside {
+	box-sizing: border-box;
+	display: block;
+	height: 88px;
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0.23);
+	padding: 0 10px 0 10px;
+}
+
+nav.inside {
+	margin: auto;
+	box-sizing: border-box;
+	background-image: url(logo.png);
+	background-repeat: no-repeat;
+	background-position: center left;
+	max-width: 1128px;
+	height: 100%;
+	padding-left: 15.4255%;
+	padding-top: 32px;
+	font: 10pt Open Sans;
+	font-style: bold;
+	color: #9daeb6; /* 1.597% */
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+ul li {
+	display: inline-block;
+	padding-right: 1.597%;
+	float: left;
+}
+
+nav.inside > .button {
+	height: 46px;
+	width: 153px;
+	border-radius: 4px;
+	border: solid 3px #36aeea;
+	float: right;
+	box-sizing: border-box;
+	margin-top: -18px;
+	padding: 10px 0 0 44px;
+	color: #36aeea;
+	font-size: 10pt;
+	transition: 0.2s;
+}
+
+nav.inside > .button:hover {
+	background-color: #36aeea;
+	color: white;
+}
+
+header #text1 {
+	box-sizing: border-box;
+	margin: 132px auto auto auto;
+	width: 59.1145%;
+	max-width: 1135px;
+	min-width: 200px;
+	height: 324px;
+	border: solid 3px white;
+	padding-left: 2.6431%;
+	padding-top: 3.0837%;
+}
+
+#text1 #upText {
+	font: 50pt Open Sans;
+	color: white;
+	display: inline-block;
+	margin: 0;
+}
+
+#text1 #midText {
+	font: 60pt Bringin;
+	color: #36aeea;
+	display: inline-block;
+	margin-top: -65px;
+}
+
+#text1 #downText {
+	font: 14pt Open Sans;
+	color: rgba(255, 255, 255, 0.75);
+	display: inline-block;
+	margin-top: -20px;
+}
+
+#text1 .button {
+	height: 46px;
+	width: 153px;
+	border-radius: 4px;
+	border: solid 2px #36aeea;
+	background-color: #36aeea;
+	box-sizing: border-box;
+	padding: 12px 0 0 32px;
+	margin-top: 10px;
+	color: white;
+	font: 10pt Raleway;
+	transition: 0.2s;
+}
+
+#text1 .button:hover {
+	background-color: white;
+	color: #36aeea;
+	border-color: black;
+}
+
+#blog {
+	height: 667px;
+	box-sizing: border-box;
+	background-color: #f6f4f4;
+	background-image: url(background-blog.png);
+	background-repeat: no-repeat;
+	background-size: 60.1041% auto;
+	background-position: 55.7291% center;
+	padding-top: 200px;
+	padding-left: 20px;
+}
+
+#blog > .text1 {
+	background-image: url(waves.png);
+	background-repeat: no-repeat;
+	width: 360px;
+	box-sizing: border-box;
+	padding-top: 45px;
+	float: left;
+	max-width: 100%;
+}
+
+.text1 > span.upText {
+	font: 18pt Open Sans;
+	color: black;
+	padding-bottom: 25px;
+	display: inline-block;
+}
+
+.text1 > span.downText {
+	font: 12pt Open Sans;
+	color: #949494;
+	display: inline-block;
+	padding-bottom: 30px;
+}
+
+.text1 > div.button#blogButton {
+	height: 40px;
+	width: 140px;
+	border-radius: 4px;
+	border: solid 2px #36aeea;
+	background-color: #36aeea;
+	color: white;
+	font: 12pt Open Sans;
+	box-sizing: border-box;
+	padding-top: 8px;
+	padding-left: 20px;
+	transition: 0.2s;
+}
+
+.text1 > div.button#blogButton:hover {
+	background-color: white;
+	color: #36aeea;
+	border-color: black;
+}
+
+#blog img#photoblog1 {
+	width: 18.2291%;
+	position: absolute;
+	right: 37.5%;
+	top: 975px; /* 975 */
+}
+
+#blog img#photoblog2 {
+	width: 41.9791%;
+	position: absolute;
+	right: 9.1145%;
+	top: 663px; /* 663 */
+}
+
+#journal {
+	height: 1065px;
+	width: 100%;
+	box-sizing: border-box;
+	padding-top: 65px;
+}
+
+#journal #textTop {
+	display: block;
+	width: 275px;
+	box-sizing: border-box;
+	padding-top: 25px;
+	background-image: url(waves.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	margin: auto;
+	padding-bottom: 65px;
+}
+
+#textTop span {
+	font: 30pt Open Sans;
+}
+
+#ltw {
+	height: 760px;
+	width: 1140px;
+	box-sizing: border-box;
+	box-shadow: 0px 0px 7px 0 rgba(0, 0, 0, 1);
+	margin: auto;
+}
+
+#ltw .packPhoto {
+	height: 380px;
+	width: 380px;
+	box-sizing: border-box;
+	float: left;
+}
+
+#ltw .textBlock {
+	height: 380px;
+	width: 380px;
+	box-sizing: border-box;
+	float: left;
+	text-align: center;
+	padding: 0 25px 0 25px;
+}
+
+#ltw  #pack1 .packPhoto {
+	background-image: url(journal1.jpg);
+}
+
+#ltw  #pack2 .packPhoto {
+	background-image: url(journal2.jpg);
+}
+
+#ltw  #pack3 .packPhoto {
+	background-image: url(journal3.jpg);
+}
+
+#ltw  #pack1 {
+	float: left;
+	width: 760px;
+	height: 380px;
+	z-index: 500;
+}
+
+#ltw  #pack2 {
+	float: left;
+	width: 760px;
+	height: 380px;
+}
+
+#ltw #pack3 {
+	width: 380px;
+	height: 760px;
+	display: inline-block;
+}
+
+#ltw .pack {
+	transition: 0.2s;
+	display: inline-block;
+}
+
+#ltw .pack:hover {
+	box-shadow: 0px 0px 28px 0 rgba(255, 0, 0, 1);
+}
+
+#ltw span {
+	text-align: center;
+	display: inline-block;
+}
+
+#ltw span.desc {
+	font: 11px Open Sans;
+	color: #16b5ef;
+	padding-top: 40px;
+}
+
+#ltw span.head {
+	font: 16.15pt Open Sans;
+	color: black;
+	padding-top: 48px;
+}
+
+#ltw span.text {
+	font: 14pt Open Sans;
+	color: #777777;
+}
+
+#offer {
+	height: 651px;
+	width: 100%;
+	background-image: url(backgOffer.jpg);
+	background-size: auto 651px;
+	background-position: center;
+	background-repeat: no-repeat;
+	box-sizing: border-box;
+	padding-top: 142px;
+}
+
+#offer .text {
+	background-image: url(waves.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding-top: 25px;
+	width: 36.4583%;
+}
+
+#offer span.upText {
+	font: 18pt Open Sans;
+	color: black;
+	padding-bottom: 25px;
+	display: inline-block;
+}
+
+#offer span.downText {
+	font: 12pt Open Sans;
+	color: #949494;
+	display: inline-block;
+	padding-bottom: 30px;
+}
+
+#offer .form {
+	width: 860px;
+	height: 60px;
+	background-color: white;
+	border-radius: 5px;
+	box-sizing: border-box;
+	padding-top: 10px;
+	padding-right: 10px;
+}
+
+#offer .cont {
+	width: 860px;
+	margin: auto;
+}
+
+#offer input {
+	height: 40px;
+	width: 34.8837%;
+	border: 0;
+	border-right: 1px solid #BBBBBB;
+	font-size: 16pt;
+	padding: 0 5px 0 5px;
+	float: left;
+}
+
+#offer .button {
+	height: 90%;
+	width: 26.1627%;
+	background-color: #36aeea;
+	border-radius: 4px;
+	padding-right: 4px;
+	float: right;
+	color: white;
+	font: 16pt Open Sans;
+	box-sizing: border-box;
+	padding-top: 8px;
+	padding-left: 45px;
+	margin-top: -3px;
+}
+
+#offer .transfer {
+	height: 20px;
+	background-image: url(lock.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	box-sizing: border-box;
+	padding-left: 16px;
+	color: #36aeea;
+	font-family: Open Sans;
+	margin-top: 6px;
+}
+
+/* @media screen and (min-width: 1600px) {
+	#blog {
+		padding-left: 20.4166%;
+	}
+} */
+
+@media screen and (max-width: 940px) {
+	header #text1 {
+		min-width: 90%;
+	}
+
+	#text1 #upText {
+		font: 40pt Open Sans;
+	}
+
+	#text1 #midText {
+		font: 35pt Bringin;
+		margin-top: -45px;
+	}
+
+	#text1 #downText {
+		font: 12pt Open Sans;
+		margin-top: 0;
+	}
+
+	nav ul {
+		display: none;
+	}
+
+	#journal {
+		height: 1445px;
+	}
+
+	#ltw {
+		width: 760px;
+		height: 1140px;
+	}
+
+	#ltw > #pack3 {
+		width: 760px;
+		height: 380px;
+	}
+
+	#ltw > #pack3 .packPhoto {
+		width: 380px;
+		float: left;
+		background-image: url(journal3mob.jpg);
+	}
+
+	#ltw > #pack3 .textBlock {
+		float: right;
+	}
+}
